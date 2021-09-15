@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/MartinKuzma/stutter/pkg/stutter"
+	"github.com/MartinKuzma/gostutter/pkg/stutter"
 	"golang.org/x/tools/go/analysis/singlechecker"
 )
 

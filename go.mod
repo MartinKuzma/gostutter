@@ -1,4 +1,4 @@
-module github.com/MartinKuzma/stutter
+module github.com/MartinKuzma/gostutter
 
 go 1.16
 

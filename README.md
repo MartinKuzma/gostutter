@@ -14,12 +14,16 @@ Simple linter for golang for stuttering detection (repeating of names) in code.
  
  
 
-### How to run
+### How to install
 ```
-go run ./cmd/lint/main.go --  ./...
+go install github.com/MartinKuzma/gostutter@latest
 ```
 
-Output
+How to run:
+```
+gostutter ./...
+```
+Output:
 ```
 pkg/stutter/analyzer.go:54:6: function name "runStutterCheck"  contains name of package "stutter"
 pkg/stutter/analyzer.go:78:19: function name "checkStutter"  contains name of package "stutter"
