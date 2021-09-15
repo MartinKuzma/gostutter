@@ -38,8 +38,7 @@ func NewAnalyzer() *analysis.Analyzer {
 
 	return &analysis.Analyzer{
 		Name: "stutter",
-
-		Doc: "checks for stuttering",
+		Doc:  "checks for stuttering",
 		Run: func(p *analysis.Pass) (interface{}, error) {
 			return runCheck(config, p)
 		},
