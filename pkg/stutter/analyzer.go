@@ -97,7 +97,6 @@ func (v *Visitor) Visit(node ast.Node) ast.Visitor {
 		if node.Tok == token.IMPORT {
 			return nil
 		}
-
 	case *ast.ValueSpec:
 		for _, ident := range node.Names {
 			v.check(v.packageName, ident.Name, PackageNameIssue, ident)

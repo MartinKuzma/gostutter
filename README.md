@@ -2,7 +2,6 @@
 Simple linter for golang for stuttering detection (repeating of names) in code.
 
 
-
 | Package name  | Code          | Relaxed mode  | Strict mode |
 | --------- | ------------- | ------------- | ------------- |
 | foo | `func NewFoo() *Foo`  | Allowed | Forbidden  |
@@ -16,7 +15,7 @@ Simple linter for golang for stuttering detection (repeating of names) in code.
 
 ### How to install
 ```
-go install github.com/MartinKuzma/gostutter@latest
+go install github.com/MartinKuzma/gostutter/cmd/gostutter@latest
 ```
 
 How to run:
